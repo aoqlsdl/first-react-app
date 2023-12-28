@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import NotificationList from './chap_06/NotificationList';
+import Accomodate from './chap_07/prac/Accommodate';
 
 ReactDOM.render(
 	<React.StrictMode>
-		<NotificationList />
+		<Accomodate />
 	</React.StrictMode>,
 	document.getElementById('root')
 );
