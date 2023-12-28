@@ -1,19 +1,28 @@
 import { useEffect } from 'react';
+import useUserStatus from './useUserStatus';
 
 const UserStatus = props => {
-	const [isOnline, setIsOnline] = useState(null);
+	/*
+    이 부분을 custom hook으로 추출함.
+    const [isOnline, setIsOnline] = useState(null);
 
 	const handleStatusChange = status => {
 		setIsOnline(status.isOnline);
 	};
 
-	// useEffect를 이용해 컴포넌트가 unmount될 때 함수를 호출
 	useEffect(() => {
 		ServerAPI.subscribeUserStatus(props.user.id, handleStatusChange);
 		return () => {
 			ServerAPI.unsubscribeUserStatus(props.user.id, handleStatusChange);
 		};
 	});
+
+	if (isOnline === null) {
+		return '로딩중...';
+	}
+    */
+
+	const isOnline = useUserStatus(props.user.id);
 
 	if (isOnline === null) {
 		return '로딩중...';
