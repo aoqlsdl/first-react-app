@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import CommentList from './chap_05/CommentList';
+import NotificationList from './chap_06/NotificationList';
 
 ReactDOM.render(
 	<React.StrictMode>
-		<CommentList />
+		<NotificationList />
 	</React.StrictMode>,
 	document.getElementById('root')
 );
