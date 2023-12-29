@@ -3,11 +3,11 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
-import SignUp from "./chap_11/SignUp";
+import Calculator from "./chap_12/Calculator";
 
 ReactDOM.render(
 	<React.StrictMode>
-		<SignUp />
+		<Calculator />
 	</React.StrictMode>,
 	document.getElementById("root")
 );
