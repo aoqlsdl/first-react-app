@@ -3,11 +3,11 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
-import LandingPage from "./chap_09/LandingPage";
+import AttendanceBook from "./chap_10/AttendanceBook";
 
 ReactDOM.render(
 	<React.StrictMode>
-		<LandingPage />
+		<AttendanceBook />
 	</React.StrictMode>,
 	document.getElementById("root")
 );
