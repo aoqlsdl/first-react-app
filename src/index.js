@@ -3,11 +3,11 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
-import ConfirmBtn from "./chap_08/ConfirmBtn";
+import LandingPage from "./chap_09/LandingPage";
 
 ReactDOM.render(
 	<React.StrictMode>
-		<ConfirmBtn />
+		<LandingPage />
 	</React.StrictMode>,
 	document.getElementById("root")
 );
