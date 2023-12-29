@@ -3,11 +3,11 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
-import Calculator from "./chap_12/Calculator";
+import ProfileCard from "./chap_13/ProfileCard";
 
 ReactDOM.render(
 	<React.StrictMode>
-		<Calculator />
+		<ProfileCard />
 	</React.StrictMode>,
 	document.getElementById("root")
 );
