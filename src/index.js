@@ -3,11 +3,11 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
-import Blocks from "./chap_15/Blocks";
+import App from "./App";
 
 ReactDOM.render(
 	<React.StrictMode>
-		<Blocks />
+		<App />
 	</React.StrictMode>,
 	document.getElementById("root")
 );
