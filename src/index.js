@@ -3,11 +3,11 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
-import ProfileCard from "./chap_13/ProfileCard";
+import DarkOrLight from "./chap_14/DarkOrLight";
 
 ReactDOM.render(
 	<React.StrictMode>
-		<ProfileCard />
+		<DarkOrLight />
 	</React.StrictMode>,
 	document.getElementById("root")
 );
