@@ -3,11 +3,11 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
-import DarkOrLight from "./chap_14/DarkOrLight";
+import Blocks from "./chap_15/Blocks";
 
 ReactDOM.render(
 	<React.StrictMode>
-		<DarkOrLight />
+		<Blocks />
 	</React.StrictMode>,
 	document.getElementById("root")
 );
